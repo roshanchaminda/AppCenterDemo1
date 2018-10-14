@@ -24,6 +24,7 @@ namespace AppCenterDemo1
                   "uwp={Your UWP App secret here};" +
                   "android={Your Android App secret here}",
                             typeof(Analytics), typeof(Crashes));
+            
         }
 
         protected override void OnSleep()
